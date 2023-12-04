@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T16:51:00.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YMs_PJWLUFk1uZpOgMdQ" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T16:56:02.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OnA9kaitf-i8ArfxcNCL" version="22.1.5" type="github">
   <diagram name="第 1 页" id="1ivuH3Wv_KfW88byzCct">
     <mxGraphModel dx="1793" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
             <mxPoint x="260" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WzFBl8_N9M4X1-9kwTfS-8" value="&lt;h1&gt;大动脉集群连接方式&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="10" width="270" height="110" as="geometry" />
+        <mxCell id="WzFBl8_N9M4X1-9kwTfS-8" value="&lt;h1&gt;大动脉集群连接方式&lt;/h1&gt;&lt;p&gt;服务器分组方式&lt;/p&gt;&lt;p&gt;1.[大动脉]德国-德国&lt;/p&gt;&lt;p&gt;2.[大动脉]德国-法国&lt;br&gt;&lt;/p&gt;&lt;p&gt;3.[大动脉]德国-波兰&lt;/p&gt;4.[大动脉]德国-[欧洲地区]" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="10" width="270" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

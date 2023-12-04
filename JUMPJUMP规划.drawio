@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T16:20:59.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mVLQjY4LhnDF9Z-qwkIc" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T16:26:57.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="db_vsYDk27iMnssbZkjq" version="22.1.5" type="github">
   <diagram name="第 1 页" id="1ivuH3Wv_KfW88byzCct">
-    <mxGraphModel dx="1226" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1226" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yAIfdNXannAPqSkCus9B-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="yAIfdNXannAPqSkCus9B-1" value="大动脉集群-德国" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="280" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="yAIfdNXannAPqSkCus9B-2" value="运营商A&amp;nbsp; &amp;nbsp;客户端1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yAIfdNXannAPqSkCus9B-7" value="大动脉节点1&amp;nbsp; 2G 总带宽" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="240" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,50 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T08:13:52.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="C-GNlj6gLcthmy2kC1n4" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T12:29:57.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_Fk3SfrvbKYw2quztL2l" version="22.1.5" type="github">
   <diagram name="第 1 页" id="1ivuH3Wv_KfW88byzCct">
-    <mxGraphModel dx="2462" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2462" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yAIfdNXannAPqSkCus9B-1" value="大动脉集群-德国" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="54" width="280" height="720" as="geometry" />
+        <mxCell id="yAIfdNXannAPqSkCus9B-1" value="大动脉集群-德国" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="54" width="280" height="720" as="geometry" />
         </mxCell>
         <mxCell id="yAIfdNXannAPqSkCus9B-2" value="运营商A&amp;nbsp; &amp;nbsp;客户端A1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="398" width="30" height="60" as="geometry" />
+          <mxGeometry x="100" y="398" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yAIfdNXannAPqSkCus9B-7" value="大动脉节点1&amp;nbsp; &lt;br&gt;&lt;br&gt;2G 总带宽&amp;nbsp; 50-100个IP 限速40M&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;黑名单=运营商A+运营商B+运营商C&lt;/font&gt;&lt;br&gt;&lt;br&gt;10.10.0.1&lt;br&gt;10.10.0.2&lt;br&gt;10.10.0.3&lt;br&gt;10.10.0.4&lt;br&gt;10.10.0.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;10.10.0.6&lt;br&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;10.10.0.50&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="94" width="240" height="200" as="geometry" />
+        <mxCell id="yAIfdNXannAPqSkCus9B-7" value="桥接节点-德国1&lt;br&gt;&lt;br&gt;2G 总带宽&amp;nbsp; 50-100个IP 限速40M&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;黑名单=运营商A+运营商B+运营商C&lt;/font&gt;&lt;br&gt;&lt;br&gt;10.10.0.1&lt;br&gt;10.10.0.2&lt;br&gt;10.10.0.3&lt;br&gt;10.10.0.4&lt;br&gt;10.10.0.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;10.10.0.6&lt;br&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;10.10.0.50&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="94" width="240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="WzFBl8_N9M4X1-9kwTfS-1" value="大动脉节点2&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;2G 总带宽&amp;nbsp; 50-100个IP 限速40M&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;白名单=运营商A&lt;/font&gt;&lt;br&gt;&lt;br&gt;11.10.0.1&lt;br&gt;11.10.0.2&lt;br&gt;11.10.0.3&lt;br&gt;11.10.0.4&lt;br&gt;11.10.0.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;11.10.0.6&lt;br&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;11.10.0.50&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="314" width="240" height="206" as="geometry" />
+        <mxCell id="WzFBl8_N9M4X1-9kwTfS-1" value="桥接节点-德国2&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;2G 总带宽&amp;nbsp; 50-100个IP 限速40M&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;白名单=运营商A&lt;/font&gt;&lt;br&gt;&lt;br&gt;11.10.0.1&lt;br&gt;11.10.0.2&lt;br&gt;11.10.0.3&lt;br&gt;11.10.0.4&lt;br&gt;11.10.0.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;11.10.0.6&lt;br&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;11.10.0.50&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="314" width="240" height="206" as="geometry" />
         </mxCell>
-        <mxCell id="WzFBl8_N9M4X1-9kwTfS-2" value="大动脉节点3&lt;br&gt;&lt;br&gt;2G 总带宽 50-100个IP 限速40M&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;白名单=运营商B+运营商C&lt;/font&gt;&lt;br&gt;&lt;br&gt;12.10.0.1&lt;br&gt;12.10.0.2&lt;br&gt;12.10.0.3&lt;br&gt;12.10.0.4&lt;br&gt;12.10.0.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;12.10.0.6&lt;br&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;12.10.0.50&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="544" width="240" height="206" as="geometry" />
+        <mxCell id="WzFBl8_N9M4X1-9kwTfS-2" value="桥接节点-德国3&lt;br&gt;&lt;br&gt;2G 总带宽 50-100个IP 限速40M&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;白名单=运营商B+运营商C&lt;/font&gt;&lt;br&gt;&lt;br&gt;12.10.0.1&lt;br&gt;12.10.0.2&lt;br&gt;12.10.0.3&lt;br&gt;12.10.0.4&lt;br&gt;12.10.0.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;12.10.0.6&lt;br&gt;...&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;12.10.0.50&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="544" width="240" height="206" as="geometry" />
         </mxCell>
         <mxCell id="WzFBl8_N9M4X1-9kwTfS-3" value="运营商B&amp;nbsp; &amp;nbsp;客户端B1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="632" width="30" height="60" as="geometry" />
+          <mxGeometry x="100" y="632" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WzFBl8_N9M4X1-9kwTfS-4" value="运营商D&amp;nbsp; &amp;nbsp;客户端D1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="186" width="30" height="60" as="geometry" />
+          <mxGeometry x="100" y="186" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WzFBl8_N9M4X1-9kwTfS-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="209.5" as="sourcePoint" />
-            <mxPoint x="260" y="209.5" as="targetPoint" />
+            <mxPoint x="170" y="209.5" as="sourcePoint" />
+            <mxPoint x="310" y="209.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzFBl8_N9M4X1-9kwTfS-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="440" as="sourcePoint" />
-            <mxPoint x="260" y="440" as="targetPoint" />
+            <mxPoint x="170" y="440" as="sourcePoint" />
+            <mxPoint x="310" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzFBl8_N9M4X1-9kwTfS-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="660" as="sourcePoint" />
-            <mxPoint x="260" y="660" as="targetPoint" />
+            <mxPoint x="170" y="660" as="sourcePoint" />
+            <mxPoint x="310" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WzFBl8_N9M4X1-9kwTfS-8" value="&lt;h1&gt;大动脉集群连接方式&lt;/h1&gt;&lt;div&gt;...&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="WzFBl8_N9M4X1-9kwTfS-8" value="&lt;h1&gt;大动脉集群连接方式&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="860" y="10" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-1" value="直连节点-德国1&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;500M限速(1G 共享带宽)&amp;nbsp; 1个IP 4核4G&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;传输协议A&lt;/font&gt;&lt;br&gt;&lt;br&gt;100.10.0.1&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="658" y="141" width="230" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-2" value="直连节点-法国1&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;500M限速(1G 共享带宽)&amp;nbsp; 1个IP 4核4G&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;传输协议B&lt;/font&gt;&lt;br&gt;&lt;br&gt;101.10.0.1&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="658" y="294" width="230" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-3" value="直连节点-波兰1&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;500M限速(1G 共享带宽)&amp;nbsp; 1个IP 4核4G&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;传输协议C&lt;/font&gt;&lt;br&gt;&lt;br&gt;102.10.0.1&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="658" y="450" width="230" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-4" value="直连节点-英国1&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;500M限速(1G 共享带宽)&amp;nbsp; 1个IP 4核4G&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;传输协议D&lt;/font&gt;&lt;br&gt;&lt;br&gt;103.10.0.1&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="658" y="600" width="230" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-6" value="&lt;h1&gt;传输协议(测试完成)&lt;/h1&gt;&lt;p&gt;1.HTTP+MUX&lt;/p&gt;&lt;p&gt;2.HTTPS+H2&lt;/p&gt;&lt;p&gt;3.HTTPS+GRPC&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-380" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-7" value="&lt;h1&gt;传输协议(测试中)&lt;/h1&gt;&lt;p&gt;1.CDN+WS+MUX&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-210" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-8" value="桥接节点IP与直连节点IP为多对一关系" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="384" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-9" value="&lt;h1&gt;客户端服务器分组视图&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="-543" width="292" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="4X0TBHcwjBheOzNevmvr-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="-517" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4X0TBHcwjBheOzNevmvr-11" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="865" y="-532" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

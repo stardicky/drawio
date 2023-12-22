@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T06:41:24.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SfQUhUgwBdN5WhNABGV3" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T06:42:08.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7ydcNTL4Jf393h1PgqAM" version="22.1.11" type="github">
   <diagram name="第 1 页" id="1ivuH3Wv_KfW88byzCct">
     <mxGraphModel dx="2462" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -59,10 +59,10 @@
           <mxGeometry x="658" y="600" width="230" height="106" as="geometry" />
         </mxCell>
         <mxCell id="4X0TBHcwjBheOzNevmvr-6" value="&lt;h1&gt;传输协议(测试完成)&lt;/h1&gt;&lt;p&gt;1.HTTP+MUX&lt;/p&gt;&lt;p&gt;2.HTTPS+H2&lt;/p&gt;&lt;p&gt;3.HTTPS+H2+GRPC&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="493" width="230" height="130" as="geometry" />
+          <mxGeometry x="1220" y="374" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4X0TBHcwjBheOzNevmvr-7" value="&lt;h1&gt;传输协议(测试中)&lt;/h1&gt;&lt;p&gt;1.CDN+WSS&lt;/p&gt;&lt;p&gt;2.CDN+WSS+MUX&lt;br&gt;&lt;/p&gt;&lt;p&gt;3.CDN+H2+GRPC&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="663" width="220" height="130" as="geometry" />
+          <mxGeometry x="1220" y="544" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4X0TBHcwjBheOzNevmvr-8" value="桥接节点IP与直连节点IP为多对一关系" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="384" width="720" height="60" as="geometry" />
